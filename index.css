@@ -1,0 +1,87 @@
+body{
+    margin: 0%;
+    background-image: url("https://image.freepik.com/free-photo/passage-library-bookcases_23-2147845927.jpg");
+    background-size: cover;
+}
+* {
+    box-sizing: border-box;
+  }
+.heading1,.heading2
+{
+    font-size: 40px;
+    color:rgb(141, 15, 15);
+    padding: 20px;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.pic1
+{
+    width: 200px;
+  margin-top: 5%;
+    opacity: 1.0;
+}
+
+
+@media only screen and (min-width: 768px) 
+{
+    .col1,.col2{
+        width: 100%;
+      }
+}
+
+.cent{
+    background-color:rgba(255, 255, 255, 0.603);
+    width: 75%;
+    height: 100%; 
+    overflow: auto;
+}
+.container {
+    margin: 20px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: transparent;
+    overflow: auto;
+    
+  }
+  
+  /* Full-width input fields */
+  input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: rgb(3, 51, 82);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  h1 {
+      color:rgb(3, 51, 82) ;
+       font-size: 34px;
+       font-family: 'Nanum Gothic', sans-serif;
+  
+  }
+
+  .font{
+    color:rgb(141, 15, 15) ;
+       font-family: 'Nanum Gothic', sans-serif;
+  }
+ 
